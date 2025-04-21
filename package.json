@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "yearsofshinobi-launcher",
+    "preductname": "YearsOfShinobi Launcher",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour le serveur YearsOfShinobi",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis,TokyoOthman, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://github.com/CyberTokyo1124/Yos/blob/main/ccb313c05861ff74890cef4f48d1e816.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/CyberTokyo1124/YearsOfShinobi.git"
     }
 }
